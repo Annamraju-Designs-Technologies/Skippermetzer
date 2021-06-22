@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+}
+h2 span{
+    color:#0AA4E4;
+}
+
+p{
+    margin:0;
+}
+header.mainNav{
+    position:sticky;
+    top:0;
+    z-index: 999;
+}
+.navbar {
+    padding:0;
+    margin:0;
+}
+.navbar .nav-link {
+
+}
+.navbar-light .navbar-toggler {
+    color: rgba(255, 255, 255, .1);
+    border-color: rgba(255,255,255, .1);
+}
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1rem;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-weight: 600;
+    font-size: 12px;
+    padding: 0;
+    width: fit-content;
+}
+.navbar-expand-lg .navbar-nav .nav-link.active {
+    color:rgba(10, 164, 228, 1);
+    border-bottom: 2px solid  rgba(10, 164, 228, 1);
+}
+
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .nav-link {
+        margin-right: 1.5rem;
+        margin-left: 1.5rem;
+        font-weight:600;
+
+    }
+} 
+
+.mainBanner{
+    position: relative;
+    background:url('/wp-content/themes/SkipperMetzer/Images/Banner-photos/Banner-one.jpg')no-repeat center;
+    background-size: cover;
+    width:100%;
+    height:100vh;
+}
+.bannerFooter{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    background:rgba(0, 0, 0, 0.5);
+    height:85px;
+    text-align:center;
+    color:#fff;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+
+.mainBanner .bannerFooter .footerbox{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.mainBanner .bannerFooter .footerbox p{
+    font-weight:600;
+    font-size:16px;
+    line-height:20px;
+}
+
+footer.mainfooter{
+    background: rgba(0, 21, 53, 1);
+
+}
+
+footer.mainfooter .innerBox{
+    margin-top:40px;
+    padding:10px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+footer.mainfooter .innerBox p { padding:10px;font-size:15px;}
+footer.mainfooter .innerBox p strong{
+    color:#fff;
+}
+
+footer.mainfooter .innerBox h4{
+    color:#fff;
+}
+footer.mainfooter .innerBox ul{
+    padding-inline-start: 0px;
+    list-style:none;
+}
+
+
+footer.mainfooter .innerBox ul li{
+    padding:10px 0;
+}
+
+footer.mainfooter .innerBox ul li a{
+   text-decoration:none;
+   color: rgba(255, 255, 255, 0.7);
+}
+footer.mainfooter .innerBox address p{
+    display: inline-flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: stretch;
+}
+
+footer.mainfooter .innerBox address p i{
+    font-size:22px;
+    color:#fff;
+    padding:5px;
+    padding-right:24px;
+}
+.aboutUSback {
+    background: linear-gradient(98.91deg, rgba(0, 0, 0, 0.9) 7.28%, rgba(30, 29, 29, 0.9) 52.45%, rgba(0, 0, 0, 0.9) 92.96%);
+
+}
+.aboutUSback p{
+    color: rgba(255, 255, 255, 0.7);
+    max-width:600px;
+    margin:auto;
+}
+.aboutUSback  .readmoreBtn{
+    padding:10px 20px;
+    background:#fff;
+}
+.viewSector .rowCrops,
+.viewSector .orchards,
+.viewSector .greenHouses,
+.viewSector .landScaping {
+    background-size:cover;
+    width: 100%;
+    height:250px;
+}
+.viewSector .rowCrops {
+    background:url('/wp-content/themes/SkipperMetzer/Images/Sectors-photo/rowCrops.jpg')no-repeat center;
+}
+.viewSector .orchards {
+    background: url('/wp-content/themes/SkipperMetzer/Images/Sectors-photo/orchards.jpg')no-repeat center;
+}
+.viewSector .greenHouses {
+    background: url('/wp-content/themes/SkipperMetzer/Images/Sectors-photo/greenhouse.jpg')no-repeat center;
+}
+.viewSector .landScaping {
+    background: url('/wp-content/themes/SkipperMetzer/Images/Sectors-photo/landScaping.jpg')no-repeat center;
+}
+.viewSector
+
