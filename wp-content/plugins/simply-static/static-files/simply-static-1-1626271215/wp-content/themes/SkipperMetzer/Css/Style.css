@@ -1,0 +1,884 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;0,600;0,700;0,900;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+}
+body {
+    background: #FCFCFC;
+}
+h2.h2Title {
+    border-bottom: 2px solid;
+    display: initial;
+    padding-bottom: 5px;
+    line-height: 45px;
+}
+    h2.h2Title span {
+        color: #0AA4E4;
+        border-bottom: 2px solid;
+        padding-bottom: 5px;
+        line-height: 45px;
+    }
+
+p{
+    margin:0;
+}
+header.mainNav{
+    position:sticky;
+    top:0;
+    z-index: 999;
+}
+.navbar {
+    padding:0;
+    margin:0;
+}
+.navbar .nav-link {
+
+}
+.navbar-light .navbar-toggler {
+    color: rgba(255, 255, 255, .1);
+    border-color: rgba(255,255,255, .1);
+}
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1rem;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-weight: 600;
+    font-size: 12px;
+    padding: 0;
+    width: fit-content;
+}
+.navbar-expand-lg .navbar-nav .nav-link.active {
+    color:rgba(10, 164, 228, 1);
+    border-bottom: 2px solid  rgba(10, 164, 228, 1);
+}
+
+
+
+.mainBanner {
+    position: relative;
+    background: url('https://ananddipak.github.io/SkipperMetzer/wp-content/themes/SkipperMetzer/Images/Banner-photos/Banner-one.jpg')no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+    .mainBanner img.logo {
+        margin-top: 10%;
+    }
+.bannerFooter{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    background:rgba(0, 0, 0, 0.5);
+    height:85px;
+    text-align:center;
+    color:#fff;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+
+.mainBanner .bannerFooter .footerbox{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.mainBanner .bannerFooter .footerbox p{
+    font-weight:600;
+    font-size:16px;
+    line-height:20px;
+}
+
+
+
+footer.mainfooter{
+    background: rgba(0, 21, 53, 1);
+
+}
+
+.dripIrregationSystem img.imgFix{
+    width:160px; 
+    height:160px;
+    padding:10px;
+}
+.dripIrregationSystem .boxInnerDescription h2 {
+    font-size: 1.5rem;
+    color: #0AA4E4;
+}
+.dripIrregationSystem .boxInnerRight {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+}
+    .dripIrregationSystem .boxInnerRight .boxInnerDescription {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: space-around;
+        align-items: flex-end;
+        justify-content: center;
+    }
+    .dripIrregationSystem .boxInnerLeft {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: flex-start;
+        align-items: center;
+    }
+        .dripIrregationSystem .boxInnerLeft .boxInnerDescription {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-content: space-around;
+            align-items: flex-start;
+            justify-content: center;
+        }
+footer.mainfooter .rightB {
+    border-right: 1px solid rgba(255, 255, 255, 0.7);
+    margin: 26px 0px;
+}
+
+footer.mainfooter .innerBox {
+    margin-top: 40px;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+footer.mainfooter .innerBox p { padding:10px;font-size:15px;}
+footer.mainfooter .innerBox p strong{
+    color:#fff;
+}
+
+footer.mainfooter .innerBox h4{
+    color:#fff;
+}
+footer.mainfooter .innerBox ul{
+    padding-inline-start: 0px;
+    list-style:none;
+}
+
+
+footer.mainfooter .innerBox ul li{
+    padding:10px 0;
+}
+
+footer.mainfooter .innerBox ul li a{
+   text-decoration:none;
+   color: rgba(255, 255, 255, 0.7);
+   font-size:14px;
+}
+footer.mainfooter .innerBox address p{
+    display: inline-flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: stretch;
+    word-break:break-word;
+}
+
+footer.mainfooter .innerBox address p i{
+    font-size:22px;
+    color:#fff;
+    padding:5px;
+    padding-right:24px;
+}
+
+    footer.mainfooter .innerBox .social-icons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        align-items: center;
+        justify-content: space-around;
+    }
+        footer.mainfooter .innerBox .social-icons .social-icon {
+            width: 60px;
+            height: 60px;
+            border: 2px solid #fff;
+            border-radius: 50%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: nowrap;
+        }
+            footer.mainfooter .innerBox .social-icons .social-icon i{
+                    color:#fff;
+            }
+
+
+            .amenities {
+                background: url('https://ananddipak.github.io/SkipperMetzer/wp-content/themes/SkipperMetzer/Images/Home-images/banner2.png')no-repeat bottom;
+                background-size: cover;
+            }
+
+    .amenities .overlay .small-icon-box {
+        /*background-color: rgba(0,0,0,.6);*/
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        padding:10px;
+    }
+
+        .amenities .overlay .small-icon-box .imgSec {
+            width: 40px;
+            height: 40px;
+        }
+.amenities .overlay .makeCenter {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:3rem;
+}
+            .amenities .overlay .makeCenter .circle {
+                border: 4px solid #fff;
+                border-radius: 50%;
+                width: 150px;
+                height: 150px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #fff;
+            }
+                .amenities .overlay .makeCenter .circle i{
+                    font-size:48px;
+                }
+.productSec .poductBox {
+    background: url('https://ananddipak.github.io/SkipperMetzer/wp-content/themes/SkipperMetzer/Images/Home-images/Frame-8.png')no-repeat bottom;
+    background-size: cover;
+    min-height: 300px;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+    .productSec .poductBox  h4{
+        
+    }
+
+.productSec .product {
+    margin: 0 20px 40px;
+}
+
+    .productSec .product .product-content {
+        padding: 10px;
+        /*margin-bottom: 35px;*/
+        background: #fff;
+        border: 1px solid #f0f0f0;
+        position: relative;
+        min-height:280px;
+    }
+
+        /*.productSec .product .product-content:after {
+            content: "";
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background: #fff;
+            position: absolute;
+            bottom: -10px;
+            left: 22px;
+            transform: rotate(45deg);
+        }*/
+
+.productSec .product-content .product-icon {
+    width: 50px;
+    height: 45px;
+    background: #ff4242;
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    line-height: 42px;
+    position: absolute;
+    top: 37px;
+    left: -19px;
+}
+
+    .productSec .product-content .product-icon:before {
+        content: "";
+        border-bottom: 16px solid #e41212;
+        border-left: 18px solid transparent;
+        position: absolute;
+        top: -16px;
+        left: 1px;
+    }
+
+.productSec .product h2.description {
+    font-size: 14px;
+    font-style: normal;
+    color: #3F3F3F;
+    line-height: 18px;
+    margin: 0;
+    word-break: break-word;
+}
+
+.productSec .product .description {
+    font-size: 12px;
+    font-style: normal;
+    color: #000000;
+    line-height: 18px;
+    margin: 0;
+    word-break: break-word;
+}
+    .productSec .product .description img{
+        height:100px;
+    }
+
+    .productSec .product .title {
+        display: block;
+        font-size: 18px;
+        font-weight: 700;
+        color: #525252;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+        margin: 0 0 5px 0;
+    }
+
+.productSec .product .post {
+    display: block;
+    font-size: 14px;
+    color: #ff4242;
+}
+
+.productSec .owl-theme .owl-controls {
+    margin-top: 20px;
+}
+
+    .productSec .owl-theme .owl-controls .owl-page span {
+        background: #ccc;
+        opacity: 1;
+        transition: all 0.4s ease 0s;
+    }
+
+    .productSec .owl-theme .owl-controls .owl-page.active span,
+    .productSec .owl-theme .owl-controls.clickable .owl-page:hover span {
+        background: #04275C;
+    }
+
+    .aboutUSback {
+        background: linear-gradient(98.91deg, rgba(0, 0, 0, 0.9) 7.28%, rgba(30, 29, 29, 0.9) 52.45%, rgba(0, 0, 0, 0.9) 92.96%);
+    }
+
+.aboutUSback p {
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 600px;
+    margin: auto;
+}
+.aboutUSback  .readmoreBtn{
+    padding:10px 20px;
+    background:#fff;
+}
+
+.blogs {
+    background: #F3FBFF;
+}
+    .blogs h2.h2Title {
+        border-bottom: 2px solid;
+        display: initial;
+        padding-bottom: 5px;
+    }
+
+        .blogs h2.h2Title span {
+            color: initial;
+            border-bottom: 2px solid #0AA4E4;
+            padding-bottom: 5px;
+        }
+
+
+.viewSector .rowCrops,
+.viewSector .orchards,
+.viewSector .greenHouses,
+.viewSector .landScaping {
+    width: 100%;
+    height:250px;
+    position:relative;
+}
+.viewSector .rowCrops {
+    background: url('https://ananddipak.github.io/SkipperMetzer/wp-content/themes/SkipperMetzer/Images/Home-images/Rectangle-11.png')no-repeat center;
+    background-size: cover;
+}
+.viewSector .orchards {
+    background: url('https://ananddipak.github.io/SkipperMetzer/wp-content/themes/SkipperMetzer/Images/Home-images/Rectangle-12.png')no-repeat center;
+    background-size: cover;
+}
+.viewSector .greenHouses {
+    background: url('https://ananddipak.github.io/SkipperMetzer/wp-content/themes/SkipperMetzer/Images/Home-images/Rectangle-13.png')no-repeat center;
+    background-size: cover;
+}
+.viewSector .landScaping {
+    background: url('https://ananddipak.github.io/SkipperMetzer/wp-content/themes/SkipperMetzer/Images/Home-images/Rectangle-14.png')no-repeat center;
+    background-size: cover;
+}
+.viewSector .innerField {
+    position: absolute;
+    right: 0;
+    bottom: 30px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    width: 70%;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+}
+    .viewSector .innerField .angl {
+        width: 32px;
+        height: 32px;
+        z-index: 0;
+        margin-left: -16px;
+        transform: rotate( 45deg );
+        background: rgba(0, 0, 0, 0.7);
+    }
+
+    .viewSector .innerField h4 {
+        padding: 10px;
+        margin: 0;
+    }
+
+.testimonialsSec .testimonial {
+    margin: 0 20px 40px;
+}
+
+    .testimonialsSec .testimonial .testimonial-content {
+        padding: 35px 25px 35px 50px;
+        margin-bottom: 35px;
+        min-height:190px;
+        background: #fff;
+        border: 1px solid #f0f0f0;
+        position: relative;
+    }
+
+        .testimonialsSec .testimonial .testimonial-content:after {
+            content: "";
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background: #fff;
+            position: absolute;
+            bottom: -10px;
+            left: 22px;
+            transform: rotate(45deg);
+        }
+
+.testimonialsSec .testimonial-content .testimonial-icon {
+    width: 50px;
+    height: 45px;
+    background: #ff4242;
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    line-height: 42px;
+    position: absolute;
+    top: 37px;
+    left: -19px;
+}
+
+    .testimonialsSec .testimonial-content .testimonial-icon:before {
+        content: "";
+        border-bottom: 16px solid #e41212;
+        border-left: 18px solid transparent;
+        position: absolute;
+        top: -16px;
+        left: 1px;
+    }
+
+.testimonialsSec .testimonial .description {
+    font-size: 15px;
+    font-style: italic;
+    color: #8a8a8a;
+    line-height: 23px;
+    margin: 0;
+}
+
+.testimonialsSec .testimonial .title {
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    color: #525252;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin: 0 0 5px 0;
+}
+
+.testimonialsSec .testimonial .post {
+    display: block;
+    font-size: 14px;
+    color: #ff4242;
+}
+
+.testimonialsSec .owl-theme .owl-controls {
+    margin-top: 20px;
+}
+
+    .testimonialsSec .owl-theme .owl-controls .owl-page span {
+        background: #ccc;
+        opacity: 1;
+        transition: all 0.4s ease 0s;
+    }
+
+    .testimonialsSec .owl-theme .owl-controls .owl-page.active span,
+    .testimonialsSec .owl-theme .owl-controls.clickable .owl-page:hover span {
+        background: #04275C;
+    }
+
+.ContactSec {
+    background: url('https://ananddipak.github.io/SkipperMetzer/wp-content/themes/SkipperMetzer/Images/Home-images/banner.png')no-repeat bottom;
+    background-size: cover;
+    /*min-height:500px;*/
+}
+    .ContactSec .overlay{
+        /*background-color:rgba(0,0,0,.6);*/
+        /*height:100vh;*/
+    }
+        .ContactSec .overlay h1 {
+            font-family: 'Pinyon Script', cursive;
+            font-size:2.5rem;
+        }
+            .ContactSec .overlay h1 span {
+                font-family: 'Pinyon Script', cursive;
+                font-size: 2.5rem;
+                border-bottom: 2px solid;
+            }
+        .ContactSec .overlay .ContactForm input.form-control,
+        .ContactSec .overlay .ContactForm textarea.form-control {
+            background: transparent;
+            border: none;
+            border-radius: 0;
+            color: #fff;
+            padding: 10px 0;
+            border-bottom: 2px solid #ffff;
+        }
+            .ContactSec .overlay .ContactForm input.form-control:focus,
+            .ContactSec .overlay .ContactForm textarea.form-control:focus {
+                outline: none;
+                box-shadow: 0 0 0 0 transparent;
+            }
+
+        .ContactSec .overlay .ContactForm ::-webkit-input-placeholder {
+            /* WebKit, Blink, Edge */
+            color: #fff !important;
+        }
+
+        .ContactSec .overlay .ContactForm :-moz-placeholder {
+            /* Mozilla Firefox 4 to 18 */
+            color: #fff !important;
+            opacity: 1;
+        }
+
+        .ContactSec .overlay .ContactForm ::-moz-placeholder {
+            /* Mozilla Firefox 19+ */
+            color: #fff !important;
+            opacity: 1;
+        }
+
+        .ContactSec .overlay .ContactForm :-ms-input-placeholder {
+            /* Internet Explorer 10-11 */
+            color: #fff !important;
+        }
+
+        .ContactSec .overlay .ContactForm .btn{
+            border-radius:20px;
+        }
+
+        .addressSec .address {
+            margin: 0 20px 40px;
+        }
+
+    .addressSec .address .address-content {
+        padding: 20px;
+        margin-bottom: 35px;
+        min-height:234px;
+        background: #fff;
+        border: none;
+        position: relative;
+        -webkit-box-shadow: 0px 0px 10px 1px rgba(230,230,230,1);
+        -moz-box-shadow: 0px 0px 10px 1px rgba(230,230,230,1);
+        box-shadow: 0px 0px 10px 1px rgba(230,230,230,1);
+    }
+
+/*        .addressSec .address .address-content:after {
+            content: "";
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background: #fff;
+            position: absolute;
+            bottom: -10px;
+            left: 22px;
+            transform: rotate(45deg);
+        }*/
+
+        .addressSec .address .address-content .address-icon {
+            width: 50px;
+            height: 45px;
+            background: #ff4242;
+            text-align: center;
+            font-size: 22px;
+            color: #fff;
+            line-height: 42px;
+            position: absolute;
+            top: 37px;
+            left: -19px;
+        }
+
+            .addressSec .address .address-content .address-icon:before {
+                content: "";
+                border-bottom: 16px solid #e41212;
+                border-left: 18px solid transparent;
+                position: absolute;
+                top: -16px;
+                left: 1px;
+            }
+        .addressSec .address .address-content h3.title {
+            display: block;
+            font-size: 18px;
+            font-weight: 700;
+            color: #0AA4E4;
+            text-transform: capitalize;
+            letter-spacing: 1px;
+            margin: 0 0 16px 0;
+        }
+
+        .addressSec .address .address-content .description {
+            font-size: 14px;
+            font-family: 'Mulish', sans-serif;
+            font-style: normal;
+            color: #8a8a8a;
+            line-height: 18px;
+            letter-spacing: .5px;
+            margin-bottom: 10px;
+            display: flex;
+            /* align-items: center; */
+            flex-direction: row;
+            flex-wrap: nowrap;
+            align-content: center;
+            word-break: break-word;
+        }
+            .addressSec .address .address-content .description.desAdd {
+                min-height: 80px;
+            }
+            .addressSec .address .address-content .description i {
+                color: #04275C;
+                font-size: 16px;
+                padding-top: 2px;
+                padding-right: 10px;
+            }
+
+
+
+    .addressSec .address .post {
+        display: block;
+        font-size: 14px;
+        color: #ff4242;
+    }
+
+    .addressSec .owl-carousel .owl-wrapper-outer {
+        padding: 10px 0;
+    }
+
+    .addressSec .owl-theme .owl-controls {
+        margin-top: 20px;
+    }
+
+    .addressSec .owl-theme .owl-controls .owl-page span {
+        background: #ccc;
+        opacity: 1;
+        transition: all 0.4s ease 0s;
+    }
+
+    .addressSec .owl-theme .owl-controls .owl-page.active span,
+    .addressSec.addressSec .owl-theme .owl-controls.clickable .owl-page:hover span {
+        background: #0AA4E4;
+    }
+
+
+/* ==================================================== About Us Page ========================================================*/
+
+.topBanner {
+    position: relative;
+    background: url('https://ananddipak.github.io/SkipperMetzer/wp-content/themes/SkipperMetzer/Images/Banner-photos/topBanner.jpg')no-repeat center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+    .topBanner h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight:700;
+    }
+
+.aboutUsDescription p.discription {
+    font-size:14px;
+    font-weight:500;
+    line-height:28px;
+}
+.promoters p.discription {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.messageBox p.discription {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.promoters .youtubeVideo {
+    background: #04275C;
+    position: relative;
+    height: 100%;
+    min-height: 450px
+}
+    .promoters .youtubeVideo h2{
+        font-size:2rem;
+        color:#fff;
+        padding:20px;
+    }
+    .promoters .youtubeVideo iframe {
+        position: absolute;
+        bottom: 48px;
+        padding: 15px;
+    }
+
+    /* ======================================================== Gallery ====================================================== */
+
+.gallery .btnActive {
+    background: #0AA4E4;
+    color: #fff;
+    border: 1px solid #0AA4E4;
+    min-width:180px;
+}
+.gallery .bthDeactive {
+    color: #0AA4E4;
+    background: #fff;
+    border: 1px solid #0AA4E4;
+    min-width: 180px;
+}
+.gallery img{
+    padding: 10px;
+}
+
+/* ========================================================== products ==========================================================*/
+
+.products .sideNavBar a.nav-link {
+    border-bottom: 1px solid #efefef;
+    font-size: 14px;
+    font-weight: 400;
+    color: #474747;
+    font-family: 'Roboto', sans-serif;
+    word-break: break-word;
+    padding: 1rem;
+}
+    .products .sideNavBar a.nav-link:hover {
+        background: #04275C;
+        color: #fff;
+    }
+.products .sideNavBar .dropdown-menu {
+    font-size: 14px;
+    right: 0px !important;
+    padding: 0;
+    transform: translate(313px, -1px) !important;
+}
+.products .sideNavBar .dropdown-item {
+    padding: 1rem ;
+}
+.products .sideNavBar .dropdown-item:focus, .dropdown-item:hover {
+    color: #fff;
+    background-color: #04275C;
+}
+.products .card {
+    min-height:280px;
+    border: none;
+    -webkit-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px -1px rgba(0,0,0,0.75);
+}
+.products .downloadBtn {
+    background: #0AA4E4;
+    color:#fff;
+    width:140px;
+    height:38px;
+    font-size:14px;
+}
+.products .card .imgSec {
+    max-width: 400px;
+}
+.products .specificDes{
+    max-width:80%;
+}
+.products .specificDes p {
+    font-weight: 600;
+}
+
+.products .specificDes li {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    word-break:break-word;
+}
+
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        margin-right: 1.5rem;
+        margin-left: 1.5rem;
+        font-weight: 600;
+    }
+}
+
+@media (max-width:768px) {
+    .mainBanner {
+        height: 400px;
+    }
+    .amenities .overlay .makeCenter {
+        padding: 1.5rem 0;
+    }
+    .amenities .overlay .makeCenter .circle {
+        width: 120px;
+        height: 120px;
+    }
+}
+@media (max-width:576px) {
+    .mainBanner img.logo{
+        width:70%!important;
+    }
+}
+
